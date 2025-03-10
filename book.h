@@ -122,7 +122,7 @@ private:
             if (bestBuy->first < bestSell->first)
                 break;
 
-                        auto buyOrder = bestBuy->second.front();
+            auto buyOrder = bestBuy->second.front();
             auto sellOrder = bestSell->second.front();
             if (buyOrder.timestamp > sellOrder.timestamp)
             {

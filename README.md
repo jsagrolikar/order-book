@@ -7,7 +7,7 @@ To compile, I've been running:
 
 This project implements an order book for matching buy and sell orders in a market. The system supports two types of orders: limit orders and market orders. Orders are concurrently produced by producer threads and processed by consumer threads, with thread synchronization to ensure safe concurrent access to the order book / queue.
 
-## Brief explanations of features
+## Brief explanation of features
 
 ### Files
 order.h contains the definitions for the Order variant and Market/Limit orders.

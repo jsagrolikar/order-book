@@ -32,11 +32,18 @@ Consumer threads process/match orders by taking orders from the queue and using 
 I have commented out several statements that log trades / executions if you would like to see more, but for now, I log a snapshot of the order book using the printOrderBook() method in the OrderBook class every 1,000,000 orders. If you'd like to add them in, here they are:
 
 book.h, line 129:
+
     std::cout << std::format("Matching Orders: Best Buy {:.2f} Best Sell {:.2f}\n", bestBuy->first, bestSell->first);
+
 book.h, line 112:
+
     std::cout << std::format("Executing Market Order {} Side: {}\n", marketOrder.orderId, (marketOrder.side == Side::BUY ? "BUY" : "SELL"));
+
 book.h, line 101:
+
     std::cout << std::format("Adding Limit Order {} Side: {}\n", order.orderId, (order.side == Side::BUY ? "BUY" : "SELL"));
+
 book.h, line 63:
+
     std::string tradeLog = std::format("[TRADE] Order {} (BUY) matched with Order {} (SELL) at Price: {:.2f} | Quantity: {}\n", order.orderId, limitOrder.orderId, bestPriceIt->first, tradeQuantity); std::cout << tradeLog;
         

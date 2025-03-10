@@ -5,6 +5,9 @@
 #include <memory>
 #include <iostream>
 
+using namespace book;
+using namespace utils;
+
 int main()
 {
     auto orderBook = std::make_unique<OrderBook>();

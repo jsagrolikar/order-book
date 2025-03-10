@@ -5,31 +5,36 @@
 #include <variant>
 #include <concepts>
 
-enum class Side
+namespace order
 {
-    BUY,
-    SELL
-};
 
-struct LimitOrder
-{
-    uint64_t orderId;
-    Side side;
-    double price;
-    uint64_t quantity;
-    std::chrono::steady_clock::time_point timestamp = std::chrono::steady_clock::now();
-};
+    enum class Side
+    {
+        BUY,
+        SELL
+    };
 
-struct MarketOrder
-{
-    uint64_t orderId;
-    Side side;
-    uint64_t quantity;
-};
+    struct LimitOrder
+    {
+        uint64_t orderId;
+        Side side;
+        double price;
+        uint64_t quantity;
+        std::chrono::steady_clock::time_point timestamp = std::chrono::steady_clock::now();
+    };
 
-using Order = std::variant<LimitOrder, MarketOrder>;
+    struct MarketOrder
+    {
+        uint64_t orderId;
+        Side side;
+        uint64_t quantity;
+    };
 
-template <typename T>
-concept ValidOrderType = std::is_same_v<T, LimitOrder> || std::is_same_v<T, MarketOrder>;
+    using Order = std::variant<LimitOrder, MarketOrder>;
+
+    template <typename T>
+    concept ValidOrderType = std::is_same_v<T, LimitOrder> || std::is_same_v<T, MarketOrder>;
+
+} // namespace order
 
 #endif // ORDER_H

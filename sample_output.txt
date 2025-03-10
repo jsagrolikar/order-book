@@ -1,0 +1,124 @@
+
+1000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.06 | Quantity: 56
+Price: 100.06 | Quantity: 4
+Price: 100.05 | Quantity: 50
+Price: 100.03 | Quantity: 46
+Price: 99.97 | Quantity: 52
+Best Bids:
+Price: 99.97 | Quantity: 56
+Price: 99.96 | Quantity: 46
+Price: 99.95 | Quantity: 47
+Price: 99.95 | Quantity: 56
+Price: 99.95 | Quantity: 54
+===========================
+
+2000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.09 | Quantity: 54
+Price: 100.09 | Quantity: 51
+Price: 100.08 | Quantity: 55
+Price: 100.07 | Quantity: 43
+Best Bids:
+Price: 100.05 | Quantity: 58
+Price: 99.96 | Quantity: 44
+Price: 99.94 | Quantity: 53
+Price: 99.94 | Quantity: 48
+Price: 99.92 | Quantity: 50
+===========================
+
+3000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.02 | Quantity: 50
+Best Bids:
+Price: 99.96 | Quantity: 48
+Price: 99.93 | Quantity: 58
+Price: 99.92 | Quantity: 9
+===========================
+
+4000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.06 | Quantity: 56
+Price: 100.06 | Quantity: 50
+Price: 99.96 | Quantity: 56
+Price: 99.96 | Quantity: 47
+Price: 99.95 | Quantity: 49
+Best Bids:
+===========================
+
+5000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.08 | Quantity: 39
+Price: 100.08 | Quantity: 52
+Price: 100.04 | Quantity: 49
+Price: 99.94 | Quantity: 39
+Price: 99.92 | Quantity: 42
+Best Bids:
+===========================
+
+6000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.06 | Quantity: 57
+Price: 100.05 | Quantity: 2
+Price: 100.05 | Quantity: 51
+Best Bids:
+Price: 99.98 | Quantity: 49
+Price: 99.96 | Quantity: 54
+Price: 99.95 | Quantity: 54
+Price: 99.92 | Quantity: 48
+===========================
+
+7000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.09 | Quantity: 56
+Price: 100.06 | Quantity: 51
+Price: 100.05 | Quantity: 49
+Best Bids:
+Price: 100.05 | Quantity: 55
+Price: 99.91 | Quantity: 10
+===========================
+
+8000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.09 | Quantity: 31
+Price: 100.06 | Quantity: 51
+Price: 99.96 | Quantity: 45
+Best Bids:
+Price: 99.95 | Quantity: 50
+Price: 99.91 | Quantity: 50
+Price: 99.90 | Quantity: 55
+===========================
+
+9000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.08 | Quantity: 52
+Price: 100.08 | Quantity: 41
+Price: 100.08 | Quantity: 4
+Best Bids:
+Price: 100.04 | Quantity: 37
+Price: 99.94 | Quantity: 49
+===========================
+
+10000000 orders produced.
+=== ORDER BOOK SNAPSHOT ===
+Best Offers:
+Price: 100.09 | Quantity: 53
+Price: 100.07 | Quantity: 51
+Price: 100.07 | Quantity: 35
+Price: 99.93 | Quantity: 50
+Best Bids:
+Price: 99.92 | Quantity: 9
+Price: 99.92 | Quantity: 55
+Price: 99.92 | Quantity: 56
+Price: 99.92 | Quantity: 47
+===========================
